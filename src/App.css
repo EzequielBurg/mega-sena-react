@@ -1,38 +1,75 @@
-.App {
+.title {
+  background: rgb(255, 190, 115);
+  padding: 15px 15px 15px 15px;
+  margin: 0px 40px 0px 40px;
+  border-radius: 0 0 7px 7px;
+}
+
+h1 {
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  opacity: 1;
+}
+
+h2 {
+  padding: 40px;
+  color: #3f51b5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+  padding: 30px;
+  color: rgb(59, 189, 91);
+}
+
+.geral {
+  margin: 60px;
+  padding: 0;
+  display: flexbox;
+}
+
+.text {
+  margin-right: 0;
+  padding-right: 0;
+  display: inline-block;
+}
+
+.loader {
+  margin-left: 0;
+  padding-left: 0;
+  min-width:40vw;
+  display: inline;
+}
+
+.result {
+  margin: 80px 0 0 0;
+  background: rgb(255, 190, 115);
+  border-radius: 5px 50px 5px 50px;
+  padding: 19px 10px 10px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  box-shadow: 5px 10px #888888;
 }
 
-.App-link {
-  color: #61dafb;
+.result ul .li {
+  display: inline-block;
+  margin-right: 10px;
+  list-style: none;
+  padding: 5px;
+  border-radius: 50%;
+  border-style: solid;
+  background: rgb(59, 189, 91);
+  color: whitesmoke;
+  margin-top: 5px;
+  height: 30px;
+  width: 30px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+strong {
+  font-size: 24px;
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
