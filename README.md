@@ -11,3 +11,6 @@ For to install all dependencies and:
 ### `yarn start`
 
 For to run the app in the browser.
+
+This application is available in this URL:
+https://sorteador-mega-sena.netlify.app/
