@@ -78,6 +78,8 @@ strong {
 
 .footer {
   display: flex;
+  flex-direction: column;
+  gap: 4px;
   width: 100%;
   flex: 1;
   bottom: 0;
@@ -85,6 +87,13 @@ strong {
   padding: 15px;
   background: #dbdada;
   justify-content: center;
+}
+
+.midias {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 .footer-text {

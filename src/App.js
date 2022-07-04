@@ -39,6 +39,14 @@ const App = () => {
     sortNumbers(value);
   }, [sortNumbers]);
 
+  function handleEmail() {
+    window.open('malito:ezekiel_sci@hotmail.com');
+  }
+  
+  function handleWhatsapp() {
+    window.open('https://wa.me/5534999849695');
+  }
+
   return (
     <>
       <div className="title">
@@ -90,8 +98,15 @@ const App = () => {
           <span></span>
         }
       </div>
+
       <div className="footer">
         <span className="footer-text">Desenvolvido por Ezequiel Burg</span>
+        <section className='midias'>
+          <Button color='primary' variant='outlined' onClick={handleEmail}>Email</Button>
+          <Button color='inherit' style={{color: 'green', borderColor: 'green'}} variant='outlined' onClick={handleWhatsapp}>
+            WhatsApp
+          </Button>
+        </section>
       </div>
     </>
   )
