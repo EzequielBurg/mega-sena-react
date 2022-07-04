@@ -40,7 +40,7 @@ const App = () => {
   }, [sortNumbers]);
 
   function handleEmail() {
-    window.open('malito:ezekiel_sci@hotmail.com');
+    window.open('mailto:ezekiel_sci@hotmail.com');
   }
   
   function handleWhatsapp() {
